@@ -1,0 +1,786 @@
+[
+    {
+        "outputFile": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hy/values-hy.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 5,
+                    "endColumn": 14,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endLine": 5,
+                        "endColumn": 14,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endLine": 9,
+                    "endColumn": 14,
+                    "endOffset": 597
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endLine": 9,
+                        "endColumn": 14,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 602,
+                    "endLine": 13,
+                    "endColumn": 14,
+                    "endOffset": 851
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endLine": 13,
+                        "endColumn": 14,
+                        "endOffset": 851
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 856,
+                    "endLine": 17,
+                    "endColumn": 14,
+                    "endOffset": 1106
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 856,
+                        "endLine": 17,
+                        "endColumn": 14,
+                        "endOffset": 1106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1111,
+                    "endLine": 21,
+                    "endColumn": 14,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1111,
+                        "endLine": 21,
+                        "endColumn": 14,
+                        "endOffset": 1356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endLine": 25,
+                    "endColumn": 14,
+                    "endOffset": 1614
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1361,
+                        "endLine": 25,
+                        "endColumn": 14,
+                        "endOffset": 1614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1619,
+                    "endLine": 29,
+                    "endColumn": 14,
+                    "endOffset": 1875
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1619,
+                        "endLine": 29,
+                        "endColumn": 14,
+                        "endOffset": 1875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1880,
+                    "endLine": 33,
+                    "endColumn": 14,
+                    "endOffset": 2136
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1880,
+                        "endLine": 33,
+                        "endColumn": 14,
+                        "endOffset": 2136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2141,
+                    "endLine": 37,
+                    "endColumn": 14,
+                    "endOffset": 2378
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2141,
+                        "endLine": 37,
+                        "endColumn": 14,
+                        "endOffset": 2378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2383,
+                    "endLine": 41,
+                    "endColumn": 14,
+                    "endOffset": 2624
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2383,
+                        "endLine": 41,
+                        "endColumn": 14,
+                        "endOffset": 2624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2629,
+                    "endLine": 45,
+                    "endColumn": 14,
+                    "endOffset": 2878
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2629,
+                        "endLine": 45,
+                        "endColumn": 14,
+                        "endOffset": 2878
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2883,
+                    "endLine": 49,
+                    "endColumn": 14,
+                    "endOffset": 3117
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2883,
+                        "endLine": 49,
+                        "endColumn": 14,
+                        "endOffset": 3117
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3122,
+                    "endLine": 53,
+                    "endColumn": 14,
+                    "endOffset": 3360
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3122,
+                        "endLine": 53,
+                        "endColumn": 14,
+                        "endOffset": 3360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3365,
+                    "endLine": 57,
+                    "endColumn": 14,
+                    "endOffset": 3608
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3365,
+                        "endLine": 57,
+                        "endColumn": 14,
+                        "endOffset": 3608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3613,
+                    "endLine": 61,
+                    "endColumn": 14,
+                    "endOffset": 3864
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3613,
+                        "endLine": 61,
+                        "endColumn": 14,
+                        "endOffset": 3864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3869,
+                    "endLine": 65,
+                    "endColumn": 14,
+                    "endOffset": 4106
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3869,
+                        "endLine": 65,
+                        "endColumn": 14,
+                        "endOffset": 4106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4111,
+                    "endLine": 69,
+                    "endColumn": 14,
+                    "endOffset": 4357
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4111,
+                        "endLine": 69,
+                        "endColumn": 14,
+                        "endOffset": 4357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4362,
+                    "endLine": 73,
+                    "endColumn": 14,
+                    "endOffset": 4612
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 4362,
+                        "endLine": 73,
+                        "endColumn": 14,
+                        "endOffset": 4612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 4617,
+                    "endLine": 77,
+                    "endColumn": 14,
+                    "endOffset": 4875
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 4617,
+                        "endLine": 77,
+                        "endColumn": 14,
+                        "endOffset": 4875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 4880,
+                    "endColumn": 107,
+                    "endOffset": 4983
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 103,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 4988,
+                    "endColumn": 196,
+                    "endOffset": 5180
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 196,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5185,
+                    "endColumn": 135,
+                    "endOffset": 5316
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 584,
+                        "endColumn": 131,
+                        "endOffset": 715
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5321,
+                    "endColumn": 109,
+                    "endOffset": 5426
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 716,
+                        "endColumn": 105,
+                        "endOffset": 821
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 5431,
+                    "endColumn": 212,
+                    "endOffset": 5639
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 822,
+                        "endColumn": 212,
+                        "endOffset": 1034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5644,
+                    "endColumn": 137,
+                    "endOffset": 5777
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1035,
+                        "endColumn": 133,
+                        "endOffset": 1168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5782,
+                    "endColumn": 141,
+                    "endOffset": 5919
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1169,
+                        "endColumn": 137,
+                        "endOffset": 1306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5924,
+                    "endColumn": 209,
+                    "endOffset": 6129
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 209,
+                        "endOffset": 494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 6134,
+                    "endColumn": 225,
+                    "endOffset": 6355
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1307,
+                        "endColumn": 225,
+                        "endOffset": 1532
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 6360,
+                    "endColumn": 109,
+                    "endOffset": 6465
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1533,
+                        "endColumn": 105,
+                        "endOffset": 1638
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 6470,
+                    "endColumn": 198,
+                    "endOffset": 6664
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1639,
+                        "endColumn": 198,
+                        "endOffset": 1837
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 6669,
+                    "endColumn": 137,
+                    "endOffset": 6802
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1838,
+                        "endColumn": 133,
+                        "endOffset": 1971
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 6807,
+                    "endColumn": 220,
+                    "endOffset": 7023
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1972,
+                        "endColumn": 220,
+                        "endOffset": 2192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 7028,
+                    "endColumn": 195,
+                    "endOffset": 7219
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2193,
+                        "endColumn": 191,
+                        "endOffset": 2384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 7224,
+                    "endColumn": 94,
+                    "endOffset": 7314
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2385,
+                        "endColumn": 90,
+                        "endOffset": 2475
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 7319,
+                    "endColumn": 96,
+                    "endOffset": 7411
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2476,
+                        "endColumn": 92,
+                        "endOffset": 2568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 7416,
+                    "endColumn": 110,
+                    "endOffset": 7522
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-hy/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2569,
+                        "endColumn": 106,
+                        "endOffset": 2675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 7527,
+                    "endColumn": 127,
+                    "endOffset": 7650
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 4880,
+                        "endColumn": 127,
+                        "endOffset": 5003
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 7655,
+                    "endColumn": 132,
+                    "endOffset": 7783
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 5008,
+                        "endColumn": 132,
+                        "endOffset": 5136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7788,
+                    "endColumn": 150,
+                    "endOffset": 7934
+                },
+                "from": {
+                    "file": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.1/res/values-hy/values-hy.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 5141,
+                        "endColumn": 150,
+                        "endOffset": 5287
+                    }
+                }
+            }
+        ]
+    }
+]

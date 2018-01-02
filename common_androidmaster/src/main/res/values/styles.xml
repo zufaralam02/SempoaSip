@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <!--
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+       
+    </style>
+    -->
+
+
+    <!-- Application theme. -->
+    <!--
+    <style name="AppTheme" parent="AppBaseTheme">
+        All customizations that are NOT specific to a particular API-level can go here.
+    </style>
+    -->
+
+
+    <!-- ANIMATION -->
+    <style name="dialog_animation_fade">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+    <!-- ImageButton -->
+    <style name="imgBtn" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/bg_selectable</item>
+        <item name="android:layout_width">@dimen/min_size_small</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_height">@dimen/min_size_small</item>
+    </style>
+
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <item name="android:minHeight">@dimen/min_size_small</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:stateListAnimator" tools:ignore="NewApi">@null</item>
+    </style>
+
+    <style name="btn_blue_fb" parent="btn">
+        <item name="android:background">@drawable/btn_blue_xml</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="btn_white" parent="btn">
+        <item name="android:background">@drawable/btn_white_xml</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="btn_transparent" parent="btn">
+        <item name="android:minHeight">@dimen/min_size_small</item>
+        <item name="android:background">@drawable/bg_selectable</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:paddingLeft">@dimen/margin_small</item>
+        <item name="android:paddingRight">@dimen/margin_small</item>
+    </style>
+    <!-- ListView -->
+    <style name="lv">
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!-- RadioButton -->
+    <!-- Radio Button -->
+    <style name="radio_white" parent="android:Theme.Holo.Light">
+        <item name="android:listChoiceIndicatorSingle">@drawable/radio_white</item>
+    </style>
+
+    <!-- TEXT -->
+    <!-- TEXT -->
+    <style name="textSmall" parent="@style/text">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="text" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <!--<item name="android:textColor">@color/text</item>-->
+    </style>
+
+    <style name="textBold" parent="text">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textLight" parent="text">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="textGray" parent="text">
+        <item name="android:textColor">@color/Gray</item>
+    </style>
+
+    <style name="textBoldLight" parent="textBold">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Text Large -->
+    <style name="textLarge" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">24sp</item>
+        <!--<item name="android:textColor">@color/text</item>-->
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="textLargeLight" parent="textLarge">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="textLargeLightBold" parent="textLargeLight">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textLargeBold" parent="textLargeLightBold">
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <!-- Text XLarge -->
+    <style name="textXLarge" parent="text">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="textXLargeLight" parent="textXLarge">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="textXLargeBold" parent="textXLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textXLargeBoldLight" parent="textXLargeBold">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+
+</resources>

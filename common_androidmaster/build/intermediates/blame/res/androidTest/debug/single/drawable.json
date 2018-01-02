@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_logo.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_logo.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/btn_blue_xml.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/btn_blue_xml.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_2_xml.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_2_xml.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ucrop_vector_loader.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.yalantis/ucrop/2.2.0/res/drawable/ucrop_vector_loader.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_3_checked.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_3_checked.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/press_bg.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/press_bg.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_2.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_2.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/bg_overlay_rounded.9.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/bg_overlay_rounded.9.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/btn_default_holo_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/btn_default_holo_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_1_checked.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_1_checked.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_1.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_1.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_2_checked.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_2_checked.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_cross_light.9.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_cross_light.9.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/design_fab_background.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ucrop_vector_ic_crop.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.yalantis/ucrop/2.2.0/res/drawable/ucrop_vector_ic_crop.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_1_xml.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_1_xml.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/btn_white_xml.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/btn_white_xml.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_no_image.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_no_image.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/design_password_eye.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_3_xml.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_3_xml.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/radio_black.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/radio_black.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/bg_selectable.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/bg_selectable.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/overlay_light.9.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/overlay_light.9.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ucrop_vector_loader_animated.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.yalantis/ucrop/2.2.0/res/drawable/ucrop_vector_loader_animated.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ucrop_shadow_upside.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.yalantis/ucrop/2.2.0/res/drawable/ucrop_shadow_upside.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/radio_white.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/radio_white.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/btndefault_btn_default_holo_light.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/btndefault_btn_default_holo_light.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_tool_3.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_tool_3.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/ic_cross_dark.9.png",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/bundles/debug/res/drawable/ic_cross_dark.9.png"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/res/merged/androidTest/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/marcelsantoso/Data/Android/IMC/common_androidmaster/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable/design_snackbar_background.xml"
+    }
+]

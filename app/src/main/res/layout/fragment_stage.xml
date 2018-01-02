@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zufaralam02.sempoasip.Fragments.FragmentStage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/layoutFirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33a86c"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLeftStage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvCenterStage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvRightStage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</FrameLayout>

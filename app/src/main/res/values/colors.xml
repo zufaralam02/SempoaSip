@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58d293</color>
+    <color name="colorPrimaryDark">#58d293</color>
+    <color name="colorAccent">#58d293</color>
+
+    <color name="bg_journey_details_1">#FBDDA9</color>
+    <color name="bg_journey_details_2">#33A96C</color>
+    <color name="bg_journey_details_3">#8DCEFF</color>
+    <color name="bg_journey_details_4">#83C25D</color>
+    <color name="bg_journey_details_5">#A1DDBE</color>
+    <color name="bg_journey_details_6">#E8D08B</color>
+    <color name="bg_journey_details_7">#8FE498</color>
+    <color name="bg_journey_details_8">#304465</color>
+    <color name="bg_journey_details_9">#E4E4E4</color>
+    <color name="bg_journey_details_10">#FF9480</color>
+    <color name="bg_journey_details_11">#FFFFFF</color>
+</resources>

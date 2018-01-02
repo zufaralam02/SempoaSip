@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zufaralam02.sempoasip.Fragments.FragmentNewStage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33a86c">
+
+        <TextView
+            android:id="@+id/tvQuestionNumber"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/new_circle_button"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="50sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
