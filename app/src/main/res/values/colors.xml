@@ -15,4 +15,18 @@
     <color name="bg_journey_details_9">#E4E4E4</color>
     <color name="bg_journey_details_10">#FF9480</color>
     <color name="bg_journey_details_11">#FFFFFF</color>
+
+    <color name="bg_challenge">#ffffff</color>
+    <color name="bg_challenge_inactive">#74acd0</color>
+    <color name="text_color_challenge">#000</color>
+    <color name="text_color_challenge_inactive">#fff</color>
+    <color name="text_color_history">#8ed1fc</color>
+    <color name="text_color_history_inactive">#fff</color>
+    <color name="text_color_join">#fff</color>
+    <color name="text_color_join_inactive">#8ed1fc</color>
+
+    <color name="text_color_detail_challenge">#000</color>
+    <color name="text_color_detail_challenge_inactive">#dedede</color>
+    <color name="text_color_detail_challenge_default">#dedede</color>
+
 </resources>

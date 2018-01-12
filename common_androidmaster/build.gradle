@@ -70,11 +70,15 @@ dependencies {
     compile 'com.google.android.gms:play-services-gcm:10.0.1'
     compile 'com.google.android.gms:play-services-analytics:10.0.1'
     compile 'com.google.android.gms:play-services-location:10.0.1'
+    //noinspection GradleCompatible
     compile 'com.android.support:cardview-v7:25.1.1'
     compile 'com.android.support:design:25.1.1'
 
     // GSON
     compile 'com.google.code.gson:gson:2.4'
+
+    // FONT
+    compile 'uk.co.chrisjenx:calligraphy:2.3.0'
 
     // Drag list & grid || https://github.com/h6ah4i/android-advancedrecyclerview
     compile('com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.9.1@aar') {

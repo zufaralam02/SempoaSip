@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
     android:orientation="vertical">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal"
-        android:weightSum="4">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@mipmap/ic_star_foreground" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@mipmap/ic_star_foreground" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@mipmap/ic_star_foreground" />
-
-    </LinearLayout>
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_star_3" />
 
     <TextView
+        style="@style/textRegular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -39,6 +21,7 @@
 
     <TextView
         android:id="@+id/tvTimerResult"
+        style="@style/textRegular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
@@ -49,10 +32,11 @@
 
     <Button
         android:id="@+id/btnPlayAgain"
+        style="@style/textRegular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@drawable/rectangle_button"
+        android:background="@drawable/rectangle_green_button"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="Play Again"
@@ -60,10 +44,11 @@
 
     <Button
         android:id="@+id/btnBackToMap"
+        style="@style/textRegular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="#fff"
+        android:background="@color/transparent"
         android:text="Back To Map"
         android:textColor="#33a86c" />
 

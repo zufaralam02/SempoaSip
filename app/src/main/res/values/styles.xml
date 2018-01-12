@@ -1,11 +1,59 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textBold">
+        <item name="fontPath">fonts/textBold.otf</item>
+    </style>
+
+    <style name="textBoldItalic">
+        <item name="fontPath">fonts/textBoldItalic.otf</item>
+    </style>
+
+    <style name="textHeavy">
+        <item name="fontPath">fonts/textHeavy.otf</item>
+    </style>
+
+    <style name="textHeavyItalic">
+        <item name="fontPath">fonts/textHeavyItalic.otf</item>
+    </style>
+
+    <style name="textItalic">
+        <item name="fontPath">fonts/textItalic.otf</item>
+    </style>
+
+    <style name="textLight">
+        <item name="fontPath">fonts/textLight.otf</item>
+    </style>
+
+    <style name="textLightItalic">
+        <item name="fontPath">fonts/textLightItalic.otf</item>
+    </style>
+
+    <style name="textMedium">
+        <item name="fontPath">fonts/textMedium.otf</item>
+    </style>
+
+    <style name="textMediumItalic">
+        <item name="fontPath">fonts/textMediumItalic.otf</item>
+    </style>
+
+    <style name="textRegular">
+        <item name="fontPath">fonts/textRegular.otf</item>
+    </style>
+
+    <style name="textSemibold">
+        <item name="fontPath">fonts/textSemibold.otf</item>
+    </style>
+
+    <style name="textSemiboldItalic">
+        <item name="fontPath">fonts/textSemiboldItalic.otf</item>
     </style>
 
 </resources>
