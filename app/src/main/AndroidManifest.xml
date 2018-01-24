@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.zufaralam02.sempoasip">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".Base.MyApplication"
         android:allowBackup="true"
@@ -12,10 +14,11 @@
         android:roundIcon="@drawable/icon_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="InnerclassSeparator">
+        tools:ignore="ExtraText,InnerclassSeparator">
         <activity
-            android:name=".Student.BottomNavigation.BottomNavigationStudent"
-            android:screenOrientation="portrait">
+            android:name=".Parent.LoginRegister.Activities.Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,32 +26,102 @@
             </intent-filter>
         </activity>
 
-
+        <!-- Student -->
         <activity
             android:name=".Student.Journey.Activities.DetailJourney"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".Student.Journey.Activities.Rank"
             android:parentActivityName=".Student.Journey.Activities.DetailJourney"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".Student.Journey.Activities.StageJourney"
             android:parentActivityName=".Student.Journey.Activities.DetailJourney"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".Student.Journey.Activities.NewStageJourney"
             android:parentActivityName=".Student.Journey.Activities.DetailJourney"
-            android:screenOrientation="portrait" />
-
-
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".Student.Challenge.Activities.History"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
             android:name=".Student.Challenge.Activities.DetailChallenge"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Student.BottomNavigation.BottomNavigationStudent"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
 
-
+        <!-- Parent -->
+        <activity
+            android:name=".Parent.BottomNavigation.BottomNavigationParent"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.LoginRegister.Activities.ForgotPassword"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.LoginRegister.Activities.Register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.LoginRegister.Activities.AddChild"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Home.Activities.ChildSetting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Notification.Activities.DetailNotification"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Profil.Activities.Contact"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Profil.Activities.AccountSetting"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Profil.Activities.ChangeName"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Profil.Activities.ChangeEmail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Profil.Activities.ChangePhoneNumber"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Profil.Activities.ChangePassword"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Wallet.Activities.TopupCoin"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Wallet.Activities.WalletHistory"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Wallet.Activities.TopupCoinDetail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".Parent.Home.Activities.ProgressChild" />
+        <activity android:name=".Parent.Home.Activities.FeedbackChild"></activity>
     </application>
 
 </manifest>

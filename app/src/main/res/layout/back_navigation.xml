@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:gravity="center"
-            android:text="History"
+            android:text="Back Navigation"
             android:textColor="#fff"
             android:textSize="20sp" />
 

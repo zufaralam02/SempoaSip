@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Sempoa SIP</string>
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -9,6 +9,8 @@
     <string name="title_challenge">Challenge</string>
     <string name="title_shop">Shop</string>
     <string name="title_profil">Profil</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_notification">Notification</string>
 
     <string name="title_challenge1">Weekly Challenge #1</string>
     <string name="title_challenge2">Weekly Challenge #2</string>
@@ -21,4 +23,52 @@
     <string name="keterangan_challenge3">Now Open</string>
     <string name="keterangan_challenge4">2 Days Left</string>
     <string name="keterangan_challenge5">Will Be Announced</string>
+    <string name="title_activity_bottom_navigation_parent">BottomNavigationParent</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_notif1">Title Notification Goes Here,</string>
+    <string name="title_notif2">Title Notification Goes Here,</string>
+    <string name="title_notif3">Title Notification Goes Here,</string>
+    <string name="title_notif4">Title Notification Goes Here,</string>
+    <string name="title_notif5">Title Notification Goes Here,</string>
+
+    <string name="detail_notif1">Lorem Ipsum Dolor...</string>
+    <string name="detail_notif2">Lorem Ipsum Dolor...</string>
+    <string name="detail_notif3">Lorem Ipsum Dolor...</string>
+    <string name="detail_notif4">Lorem Ipsum Dolor...</string>
+    <string name="detail_notif5">Lorem Ipsum Dolor...</string>
+
+    <string name="time_notif1">24 Sept 2017, 14.00</string>
+    <string name="time_notif2">24 Sept 2017, 14.00</string>
+    <string name="time_notif3">24 Sept 2017, 14.00</string>
+    <string name="time_notif4">24 Sept 2017, 14.00</string>
+    <string name="time_notif5">24 Sept 2017, 14.00</string>
+
+    <string name="wallet_name1">Middlestone\'s Coin</string>
+    <string name="wallet_name2">Mark\'s Coin</string>
+    <string name="wallet_name3">Martin\'s Coin</string>
+
+    <string name="wallet_coin1">1.000 Coin</string>
+    <string name="wallet_coin2">1.000 Coin</string>
+    <string name="wallet_coin3">1.000 Coin</string>
+
+    <string name="wallet_history_name1">Topup for Mark</string>
+    <string name="wallet_history_name2">Topup for Mark</string>
+    <string name="wallet_history_name3">Topup for Midllestone</string>
+    <string name="wallet_history_name4">Topup for Midlestone</string>
+    <string name="wallet_history_name5">Topup for Martin</string>
+
+    <string name="wallet_history_time1">12 Aug 2017</string>
+    <string name="wallet_history_time2">12 Aug 2017</string>
+    <string name="wallet_history_time3">12 Aug 2017</string>
+    <string name="wallet_history_time4">12 Aug 2017</string>
+    <string name="wallet_history_time5">12 Aug 2017</string>
+
+    <string name="wallet_history_coin1">+1.000 Coin</string>
+    <string name="wallet_history_coin2">+1.000 Coin</string>
+    <string name="wallet_history_coin3">+500 Coin</string>
+    <string name="wallet_history_coin4">+1.000 Coin</string>
+    <string name="wallet_history_coin5">+500 Coin</string>
+
 </resources>

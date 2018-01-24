@@ -23,15 +23,15 @@ public class AdapterNewStageJourney extends FragmentPagerAdapter {
         this.newStageJourney = newStageJourney;
     }
 
-    private List<String[]> listNewStage;
-
-    public List<String[]> getListNewStage() {
-        return listNewStage;
-    }
-
-    public void setListNewStage(List<String[]> listNewStage) {
-        this.listNewStage = listNewStage;
-    }
+//    private List<String[]> listNewStage;
+//
+//    public List<String[]> getListNewStage() {
+//        return listNewStage;
+//    }
+//
+//    public void setListNewStage(List<String[]> listNewStage) {
+//        this.listNewStage = listNewStage;
+//    }
 
     private List<Fragment> listFragment;
 

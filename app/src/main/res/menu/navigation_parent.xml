@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_home_parent"
+        android:icon="@drawable/ic_tab_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_wallet_parent"
+        android:icon="@drawable/ic_tab_wallet"
+        android:title="@string/title_wallet" />
+
+    <item
+        android:id="@+id/navigation_notification_parent"
+        android:icon="@drawable/ic_tab_notif"
+        android:title="@string/title_notification" />
+
+    <item
+        android:id="@+id/navigation_profil_parent"
+        android:icon="@drawable/ic_tab_profile"
+        android:title="@string/title_profil" />
+
+</menu>
