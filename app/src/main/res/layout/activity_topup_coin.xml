@@ -40,34 +40,52 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
+                        <LinearLayout
+                            android:id="@+id/llWeeklyChallenge"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="100 Coin"
-                            android:textColor="#fff" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Weekly Challenge"
-                            android:textColor="#fff" />
+                            <TextView
+                                android:id="@+id/tvWeeklyChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="100 Coin"
+                                android:textColor="#fff" />
 
-                        <TextView
-                            style="@style/textRegular"
+                            <TextView
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Weekly Challenge"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llNationalChallenge"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="200 Coin"
-                            android:textColor="#fff" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="National Challenge"
-                            android:textColor="#fff" />
+                            <TextView
+                                android:id="@+id/tvNationalChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="200 Coin"
+                                android:textColor="#fff" />
+
+                            <TextView
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="National Challenge"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -77,34 +95,52 @@
                         android:layout_marginLeft="20dp"
                         android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
+                        <LinearLayout
+                            android:id="@+id/llRegionalChallenge"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="150 Coin"
-                            android:textColor="#fff" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Regional Challenge"
-                            android:textColor="#fff" />
+                            <TextView
+                                android:id="@+id/tvRegionalChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="150 Coin"
+                                android:textColor="#fff" />
 
-                        <TextView
-                            style="@style/textRegular"
+                            <TextView
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Regional Challenge"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llSouvenirSempoa1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="250 Coin"
-                            android:textColor="#fff" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Souvenir Sempoa"
-                            android:textColor="#fff" />
+                            <TextView
+                                android:id="@+id/tvSouvenirSempoa1"
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="250 Coin"
+                                android:textColor="#fff" />
+
+                            <TextView
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Souvenir Sempoa"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -114,34 +150,52 @@
                         android:layout_marginLeft="20dp"
                         android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
+                        <LinearLayout
+                            android:id="@+id/llSouvenirSempoa2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="250 Coin"
-                            android:textColor="#fff" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Souvenir Sempoa"
-                            android:textColor="#fff" />
+                            <TextView
+                                android:id="@+id/tvSouvenirSempoa2"
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="300 Coin"
+                                android:textColor="#fff" />
 
-                        <TextView
-                            style="@style/textRegular"
+                            <TextView
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Souvenir Sempoa"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llSouvenirSempoa3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="300 Coin"
-                            android:textColor="#fff" />
+                            android:orientation="vertical">
 
-                        <TextView
-                            style="@style/textRegular"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Souvenir Sempoa"
-                            android:textColor="#fff" />
+                            <TextView
+                                android:id="@+id/tvSouvenirSempoa3"
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="350 Coin"
+                                android:textColor="#fff" />
+
+                            <TextView
+                                style="@style/textRegular"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Souvenir Sempoa"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
@@ -182,6 +236,7 @@
                             android:src="@drawable/ic_wallet_blue" />
 
                         <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edtAmountToBuy"
                             style="@style/textRegular"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"

@@ -73,6 +73,7 @@ public class FragmentNotificationParent extends Fragment {
         ArrayList<ModelNotification> modelNotification = notificationData();
         AdapterNotification adapterNotification = new AdapterNotification(getActivity(), modelNotification, R.layout.list_notification);
         BaseHelper.setupRecyclerView(recyclerNotification, adapterNotification);
+        adapterNotification.setModelNotification(modelNotification);
 
         return view;
     }
@@ -84,13 +85,13 @@ public class FragmentNotificationParent extends Fragment {
         modelNotification.add(new ModelNotification(R.string.title_notif1, R.string.detail_notif1, R.string.time_notif1,
                 R.drawable.ic_notif, true));
         modelNotification.add(new ModelNotification(R.string.title_notif2, R.string.detail_notif2, R.string.time_notif2,
-                R.drawable.ic_call, true));
+                R.drawable.ic_comment, true));
         modelNotification.add(new ModelNotification(R.string.title_notif3, R.string.detail_notif3, R.string.time_notif3,
                 R.drawable.ic_wallet, false));
         modelNotification.add(new ModelNotification(R.string.title_notif4, R.string.detail_notif4, R.string.time_notif4,
                 R.drawable.ic_announcement, false));
         modelNotification.add(new ModelNotification(R.string.title_notif5, R.string.detail_notif5, R.string.time_notif5,
-                R.drawable.ic_comment, false));
+                R.drawable.ic_call, false));
 
 //        for (int i = 0; i < titleNotif.length; i++) {
 //

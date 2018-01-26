@@ -1,32 +1,38 @@
 package com.zufaralam02.sempoasip.Parent.Profil.Activities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.support.design.widget.TextInputEditText;
 import android.widget.Button;
 
 import com.zufaralam02.sempoasip.Base.BaseActivitySempoa;
 import com.zufaralam02.sempoasip.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class ChangePassword extends BaseActivitySempoa {
+
+    @BindView(R.id.edtCurrentPassChangePass)
+    TextInputEditText edtCurrentPassChangePass;
+    @BindView(R.id.edtNewPassChangePass)
+    TextInputEditText edtNewPassChangePass;
+    @BindView(R.id.btnSaveChangePass)
     Button btnSaveChangePass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_password);
+        ButterKnife.bind(this);
 
         setupNav("Change Password");
-        initialization();
+
     }
 
-    private void initialization() {
-        btnSaveChangePass = findViewById(R.id.btnSaveChangePass);
-        btnSaveChangePass.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+    @OnClick(R.id.btnSaveChangePass)
+    public void onClick() {
+        startActivity(new Intent(getApplicationContext(), AccountSetting.class));
     }
 }

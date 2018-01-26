@@ -80,6 +80,9 @@ public class BottomNavigationParent extends BaseActivitySempoa {
         navigation.setSelectedItemId(R.id.navigation_home_parent);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.frameParent, new FragmentHomeParent()).commit();
+
+        FragmentHomeParent fragmentHomeParent = new FragmentHomeParent();
+        fragmentHomeParent.setNavigation(navigation);
     }
 
 }

@@ -18,6 +18,7 @@ import com.zufaralam02.sempoasip.Parent.Notification.Activities.DetailNotificati
 import com.zufaralam02.sempoasip.Parent.Notification.Models.ModelNotification;
 import com.zufaralam02.sempoasip.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -25,6 +26,15 @@ import java.util.List;
  */
 
 public class AdapterNotification extends BaseRecyclerAdapter {
+    public ArrayList<ModelNotification> getModelNotification() {
+        return modelNotification;
+    }
+
+    public void setModelNotification(ArrayList<ModelNotification> modelNotification) {
+        this.modelNotification = modelNotification;
+    }
+
+    ArrayList<ModelNotification> modelNotification;
 
     public AdapterNotification(Context context, List<?> items, int cellLayout) {
         super(context, items, cellLayout);
@@ -64,10 +74,12 @@ public class AdapterNotification extends BaseRecyclerAdapter {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getContext(), DetailNotification.class);
-//                intent.putExtra("titleNotif", modelNotification.getTitleNotif());
-//                intent.putExtra("timeNotif", modelNotification.getTimeNotif());
-//                intent.putExtra("detailNotif", modelNotification.getDetailNotif());
-//                intent.putExtra("imageNotif", modelNotification.getImageNotif());
+//                ModelNotification modelNotification1 = modelNotification.get
+
+                intent.putExtra("titleNotif", modelNotification.getTitleNotif());
+                intent.putExtra("timeNotif", modelNotification.getTimeNotif());
+                intent.putExtra("detailNotif", modelNotification.getDetailNotif());
+                intent.putExtra("imageNotif", modelNotification.getImageNotif());
 
 //                Bundle bundle = new Bundle();
 //                bundle.putString("titleNotif", String.valueOf(modelNotification.getTitleNotif()));

@@ -27,17 +27,39 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
-    <string name="title_notif1">Title Notification Goes Here,</string>
-    <string name="title_notif2">Title Notification Goes Here,</string>
-    <string name="title_notif3">Title Notification Goes Here,</string>
-    <string name="title_notif4">Title Notification Goes Here,</string>
-    <string name="title_notif5">Title Notification Goes Here,</string>
+    <string name="title_notif1">New Rp1000 Reward From Weekly Challenge 1</string>
+    <string name="title_notif2">Weekly Challenge 2 Will Be Open In Two Days</string>
+    <string name="title_notif3">Your Parent Approved Your Coin Request</string>
+    <string name="title_notif4">Title Notification Goes Here</string>
+    <string name="title_notif5">Title Notification Goes Here</string>
 
-    <string name="detail_notif1">Lorem Ipsum Dolor...</string>
-    <string name="detail_notif2">Lorem Ipsum Dolor...</string>
-    <string name="detail_notif3">Lorem Ipsum Dolor...</string>
-    <string name="detail_notif4">Lorem Ipsum Dolor...</string>
-    <string name="detail_notif5">Lorem Ipsum Dolor...</string>
+    <string name="detail_notif1">
+        New Rp1000 reward from weekly challenge 1
+        New Rp1000 reward from weekly challenge 1
+        New Rp1000 reward from weekly challenge 1
+        New Rp1000 reward from weekly challenge 1
+        New Rp1000 reward from weekly challenge 1
+    </string>
+    <string name="detail_notif2">
+        Weekly challenge 2 will be open in 2 days
+        Weekly challenge 2 will be open in 2 days
+        Weekly challenge 2 will be open in 2 days
+        Weekly challenge 2 will be open in 2 days
+        Weekly challenge 2 will be open in 2 days
+    </string>
+    <string name="detail_notif3">
+        Your parent approved your coin request
+        Your parent approved your coin request
+        Your parent approved your coin request
+        Your parent approved your coin request
+        Your parent approved your coin request
+    </string>
+    <string name="detail_notif4">
+        Detail Notification Goes Here
+    </string>
+    <string name="detail_notif5">
+        Detail Notification Goes Here
+    </string>
 
     <string name="time_notif1">24 Sept 2017, 14.00</string>
     <string name="time_notif2">24 Sept 2017, 14.00</string>

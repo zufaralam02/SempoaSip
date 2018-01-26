@@ -32,18 +32,17 @@ public class DetailNotification extends BaseActivitySempoa implements View.OnCli
 //        tvTitleDetailNotif.setText(title);
 //        tvTimeDetailNotif.setText(time);
 //        tvDetailDetailNotif.setText(detail);
-//
-////        image = getIntent().getIntExtra("imageNotif", 0);
-//        image = getIntent().getStringExtra("imageNotif");
+
+//        image = getIntent().getIntExtra("imageNotif", 0);
 //        Picasso.with(getApplicationContext()).load(image)
 //                .placeholder(android.R.drawable.ic_menu_gallery)
 //                .error(android.R.drawable.ic_menu_report_image)
 //                .into(ivDetailNotif);
 
-//        tvTitleDetailNotif.setText(getIntent().getStringExtra("titleNotif"));
-//        tvTimeDetailNotif.setText(getIntent().getStringExtra("timeNotif"));
-//        tvDetailDetailNotif.setText(getIntent().getStringExtra("detailNotif"));
-//        ivDetailNotif.setImageResource(getIntent().getIntExtra("imageNotif", 0));
+        tvTitleDetailNotif.setText(getIntent().getIntExtra("titleNotif", 0));
+        tvTimeDetailNotif.setText(getIntent().getIntExtra("timeNotif", 0));
+        tvDetailDetailNotif.setText(getIntent().getIntExtra("detailNotif", 0));
+        ivDetailNotif.setImageResource(getIntent().getIntExtra("imageNotif", 0));
 
 //        Bundle bundle = new Bundle();
 //        tvTitleDetailNotif.setText(String.valueOf(bundle.getString("titleNotif")));
@@ -51,23 +50,12 @@ public class DetailNotification extends BaseActivitySempoa implements View.OnCli
 //        tvDetailDetailNotif.setText(String.valueOf(bundle.getString("detailNotif")));
 //        ivDetailNotif.setImageResource(bundle.getInt("imageNotif"));
 
-//        tvTitleDetailNotif.setText(title);
-//        tvTimeDetailNotif.setText(time);
-//        tvDetailDetailNotif.setText(detail);
-//        ivDetailNotif.setImageResource(image);
-
     }
 
     @Override
     protected void onStart() {
         super.onStart();
 
-//        title = getIntent().getStringExtra("titleNotif");
-//        time = getIntent().getStringExtra("timeNotif");
-//        detail = getIntent().getStringExtra("detailNotif");
-//        tvTitleDetailNotif.setText(title);
-//        tvTimeDetailNotif.setText(time);
-//        tvDetailDetailNotif.setText(detail);
     }
 
     private void initialization() {

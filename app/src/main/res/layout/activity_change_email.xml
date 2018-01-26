@@ -40,6 +40,7 @@
                         android:text="Current Email" />
 
                     <TextView
+                        android:id="@+id/tvEmailChangeEmail"
                         style="@style/textRegular"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -70,7 +71,7 @@
                             android:src="@drawable/ic_email_yellow" />
 
                         <android.support.design.widget.TextInputEditText
-                            android:id="@+id/edtNewEmail"
+                            android:id="@+id/edtEmailChangeEmail"
                             style="@style/textRegular"
                             android:layout_width="match_parent"
                             android:layout_height="30dp"

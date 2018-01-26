@@ -120,8 +120,14 @@
             android:name=".Parent.Wallet.Activities.TopupCoinDetail"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
-        <activity android:name=".Parent.Home.Activities.ProgressChild" />
-        <activity android:name=".Parent.Home.Activities.FeedbackChild"></activity>
+        <activity
+            android:name=".Parent.Home.Activities.ProgressChild"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".Parent.Home.Activities.FeedbackChild"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
     </application>
 
 </manifest>
