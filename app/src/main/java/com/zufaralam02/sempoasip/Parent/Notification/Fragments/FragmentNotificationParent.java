@@ -9,73 +9,67 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.iapps.libs.helpers.BaseHelper;
+import com.zufaralam02.sempoasip.ApiHelper.BaseApiService;
+import com.zufaralam02.sempoasip.ApiHelper.RetrofitClient;
 import com.zufaralam02.sempoasip.Parent.Notification.Adapters.AdapterNotification;
 import com.zufaralam02.sempoasip.Parent.Notification.Models.ModelNotification;
+import com.zufaralam02.sempoasip.Parent.Notification.Models.ModelNotificationn;
 import com.zufaralam02.sempoasip.R;
-import com.zufaralam02.sempoasip.Student.Challenge.Adapters.AdapterHistory;
-import com.zufaralam02.sempoasip.Student.Challenge.Models.ModelChallenge;
-import com.zufaralam02.sempoasip.Student.Challenge.Models.ModelHistory;
-import com.zufaralam02.sempoasip.Student.Journey.Adapters.AdapterRank;
-import com.zufaralam02.sempoasip.Student.Journey.Models.ModelRank;
 
 import java.util.ArrayList;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class FragmentNotificationParent extends Fragment {
+    @BindView(R.id.recyclerNotification)
     RecyclerView recyclerNotification;
-    private String titleNotif[] = {
-            "Title Notification Here",
-            "Title Notification Here",
-            "Title Notification Here",
-            "Title Notification Here",
-            "Title Notification Here"
-
-    };
-    private String detailNotif[] = {
-            "Detail Notification Here",
-            "Detail Notification Here",
-            "Detail Notification Here",
-            "Detail Notification Here",
-            "Detail Notification Here"
-
-    };
-    private String timeNotif[] = {
-            "24 Sept 2017, 14.00",
-            "24 Sept 2017, 14.00",
-            "24 Sept 2017, 14.00",
-            "24 Sept 2017, 14.00",
-            "24 Sept 2017, 14.00"
-
-    };
-    private int imageNotif[] = {
-            R.drawable.ic_notif,
-            R.drawable.ic_call,
-            R.drawable.ic_wallet,
-            R.drawable.ic_announcement,
-            R.drawable.ic_comment
-
-    };
+    Unbinder unbinder;
+    private AdapterNotification adapterNotification;
 
     public FragmentNotificationParent() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_notification_parent, container, false);
+        unbinder = ButterKnife.bind(this, view);
 
-        recyclerNotification = view.findViewById(R.id.recyclerNotification);
+//        BaseApiService baseApiService = RetrofitClient.getClient().create(BaseApiService.class);
+//        retrofit2.Call<ModelNotificationn> call = baseApiService.getNotification("1");
+//        call.enqueue(new Callback<ModelNotificationn>() {
+//            @Override
+//            public void onResponse(retrofit2.Call<ModelNotificationn> call, Response<ModelNotificationn> response) {
+//
+//            }
+//
+//            @Override
+//            public void onFailure(retrofit2.Call<ModelNotificationn> call, Throwable t) {
+//
+//            }
+//        });
+
         ArrayList<ModelNotification> modelNotification = notificationData();
         AdapterNotification adapterNotification = new AdapterNotification(getActivity(), modelNotification, R.layout.list_notification);
         BaseHelper.setupRecyclerView(recyclerNotification, adapterNotification);
         adapterNotification.setModelNotification(modelNotification);
 
         return view;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 
     private ArrayList<ModelNotification> notificationData() {

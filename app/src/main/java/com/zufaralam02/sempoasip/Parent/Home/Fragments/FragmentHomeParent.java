@@ -89,7 +89,6 @@ public class FragmentHomeParent extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home_parent, container, false);
         unbinder = ButterKnife.bind(this, view);
 
-
 //        ArrayList<ModelChildHome> modelChildHome = childHomeData();
 //        AdapterChildHome adapterChildHome = new AdapterChildHome(getActivity().getSupportFragmentManager());
 //        viewPagerChildHome.setAdapter(adapterChildHome);

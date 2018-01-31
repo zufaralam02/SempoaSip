@@ -15,33 +15,30 @@
 
         <TextView
             android:id="@+id/tvLeftStage"
-            style="@style/textRegular"
+            style="@style/textRegularLarge"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:textColor="#fff"
-            android:textSize="30sp" />
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tvCenterStage"
-            style="@style/textRegular"
+            style="@style/textRegularLarge"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:textColor="#fff"
-            android:textSize="30sp" />
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/tvRightStage"
-            style="@style/textRegular"
+            style="@style/textRegularLarge"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center_horizontal"
-            android:textColor="#fff"
-            android:textSize="30sp" />
+            android:textColor="#fff" />
 
     </LinearLayout>
 

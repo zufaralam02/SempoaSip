@@ -323,8 +323,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Rp 250.000"
-                        android:textColor="#8ed1fc"
-                        android:textSize="25sp" />
+                        android:textColor="#8ed1fc" />
 
                     <Button
                         android:id="@+id/btnPayNow"

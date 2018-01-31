@@ -10,254 +10,256 @@
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:fillViewport="true"
-        android:focusable="true">
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_header">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:gravity="center"
             android:orientation="vertical">
 
-            <View
+            <android.support.v4.widget.NestedScrollView
                 android:layout_width="match_parent"
-                android:layout_height="48dp"/>
-
-            <HorizontalScrollView
-                android:id="@+id/scrollViewChallenge"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:clipToPadding="false"
-                android:scrollbars="none">
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fillViewport="true"
+                android:focusable="true">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_width="0dp"
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/scrollViewChallenge"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-                        android:layout_marginRight="@dimen/activity_horizontal_margin"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="5dp"
-                        app:cardUseCompatPadding="true">
+                        android:layout_gravity="center"
+                        android:clipToPadding="false"
+                        android:scrollbars="none">
 
                         <LinearLayout
-                            android:id="@+id/linearLayoutChallenge"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:divider="@drawable/divider_horizontal"
-                            android:dividerPadding="1dip"
-                            android:orientation="horizontal"
-                            android:showDividers="middle" />
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
 
-                    </android.support.v7.widget.CardView>
+                            <android.support.v7.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                                android:layout_weight="1"
+                                app:cardCornerRadius="5dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayoutChallenge"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:divider="@drawable/divider_horizontal"
+                                    android:dividerPadding="1dip"
+                                    android:orientation="horizontal"
+                                    android:showDividers="middle" />
+
+                            </android.support.v7.widget.CardView>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
 
                 </LinearLayout>
 
-            </HorizontalScrollView>
+            </android.support.v4.widget.NestedScrollView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewDetailChallenge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/btnOneChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="1"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnFourChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="4"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnSevenChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="7"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnDeleteChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@color/transparent"
+                                android:text="DELETE"
+                                android:textColor="#66b3e4" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/btnTwoChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="2"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnFiveChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="5"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnEightChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="8"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnZeroChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="0"
+                                android:textColor="#fff" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/btnThreeChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="3"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnSixChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="6"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnNineChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/blue_circle_button"
+                                android:text="9"
+                                android:textColor="#fff" />
+
+                            <Button
+                                android:id="@+id/btnNextChallenge"
+                                style="@style/textRegular"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:background="@color/transparent"
+                                android:text="NEXT"
+                                android:textColor="#66b3e4" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>
-
-    <android.support.v7.widget.CardView
-        android:id="@+id/cardViewDetailChallenge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:layout_marginLeft="@dimen/activity_horizontal_margin"
-        android:layout_marginRight="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        app:cardCornerRadius="20dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:id="@+id/btnOneChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="1"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnFourChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="4"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnSevenChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="7"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnDeleteChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@color/transparent"
-                        android:text="DELETE"
-                        android:textColor="#66b3e4"
-                        android:textSize="15sp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:id="@+id/btnTwoChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="2"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnFiveChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="5"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnEightChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="8"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnZeroChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="0"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <Button
-                        android:id="@+id/btnThreeChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="3"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnSixChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="6"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnNineChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@drawable/blue_circle_button"
-                        android:text="9"
-                        android:textColor="#fff"
-                        android:textSize="@dimen/button_numpad" />
-
-                    <Button
-                        android:id="@+id/btnNextChallenge"
-                        style="@style/textRegular"
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:background="@color/transparent"
-                        android:text="NEXT"
-                        android:textColor="#66b3e4"
-                        android:textSize="15sp" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </android.support.v7.widget.CardView>
 
 </LinearLayout>

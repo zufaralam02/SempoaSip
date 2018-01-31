@@ -13,8 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="1"
-        android:textColor="#000"
-        android:textSize="15sp" />
+        android:textColor="#000" />
 
     <TextView
         android:id="@+id/tvRankName"
@@ -23,8 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1.75"
         android:text="Joshua - 04:05"
-        android:textColor="#000"
-        android:textSize="15sp" />
+        android:textColor="#000" />
 
     <TextView
         android:id="@+id/tvRankTime"
@@ -34,7 +32,6 @@
         android:layout_marginLeft="@dimen/margin_med"
         android:layout_weight="1.75"
         android:text="40:23"
-        android:textColor="#000"
-        android:textSize="15sp" />
+        android:textColor="#000" />
 
 </LinearLayout>

@@ -9,6 +9,9 @@ import android.widget.TextView;
 import com.zufaralam02.sempoasip.Base.BaseActivitySempoa;
 import com.zufaralam02.sempoasip.R;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -32,6 +35,8 @@ public class AccountSetting extends BaseActivitySempoa {
     @BindView(R.id.tvChangePassAccountSetting)
     TextView tvChangePassAccountSetting;
 
+    String resultName, resultEmail, resultHp, resultPwd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,10 +45,21 @@ public class AccountSetting extends BaseActivitySempoa {
 
         setupNav("Account Setting");
 
-        tvNameAccountSetting.setText(getIntent().getStringExtra("changeName"));
-        tvEmailAccountSetting.setText(getIntent().getStringExtra("changeEmail"));
-        tvPhoneAccountSetting.setText(getIntent().getStringExtra("changePhone"));
-        tvPassAccountSetting.setText(getIntent().getStringExtra("changePass"));
+        resultName = getIntent().getStringExtra("resultName");
+        resultEmail = getIntent().getStringExtra("resultEmail");
+        resultHp = getIntent().getStringExtra("resultHp");
+        resultPwd = getIntent().getStringExtra("resultPwd");
+
+        tvNameAccountSetting.setText(resultName);
+        tvEmailAccountSetting.setText(resultEmail);
+        tvPhoneAccountSetting.setText(resultHp);
+        tvPassAccountSetting.setText(resultPwd);
+
+
+//        Bundle extras = getIntent().getExtras();
+//        if (extras != null)
+//            resultNama = extras.getString("result_nama");
+//        tvResultNama.setText(resultNama);
 
     }
 
@@ -51,36 +67,35 @@ public class AccountSetting extends BaseActivitySempoa {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.tvChangeNameAccountSetting:
-//                startActivity(new Intent(getApplicationContext(), ChangeName.class));
+                startActivity(new Intent(getApplicationContext(), ChangeName.class));
                 Intent intent1 = new Intent(getApplicationContext(), ChangeName.class);
-                String changeName = tvNameAccountSetting.getText().toString();
-                intent1.putExtra("changeName", changeName);
+                intent1.putExtra("resultName", resultName);
+                intent1.putExtra("resultPwd", resultPwd);
                 startActivity(intent1);
-                finish();
+//                finish();
                 break;
             case R.id.tvChangeEmailAccountSetting:
-//                startActivity(new Intent(getApplicationContext(), ChangeEmail.class));
+                startActivity(new Intent(getApplicationContext(), ChangeEmail.class));
                 Intent intent2 = new Intent(getApplicationContext(), ChangeEmail.class);
-                String changeEmail = tvChangeEmailAccountSetting.getText().toString();
-                intent2.putExtra("changeEmail", changeEmail);
+                intent2.putExtra("resultEmail", resultEmail);
+                intent2.putExtra("resultPwd", resultPwd);
                 startActivity(intent2);
-                finish();
+//                finish();
                 break;
             case R.id.tvChangePhoneAccountSetting:
-//                startActivity(new Intent(getApplicationContext(), ChangePhoneNumber.class));
+                startActivity(new Intent(getApplicationContext(), ChangePhoneNumber.class));
                 Intent intent3 = new Intent(getApplicationContext(), ChangePhoneNumber.class);
-                String changePhone = tvChangePhoneAccountSetting.getText().toString();
-                intent3.putExtra("changePhone", changePhone);
+                intent3.putExtra("resultHp", resultHp);
+                intent3.putExtra("resultPwd", resultPwd);
                 startActivity(intent3);
-                finish();
+//                finish();
                 break;
             case R.id.tvChangePassAccountSetting:
-//                startActivity(new Intent(getApplicationContext(), ChangePassword.class));
+                startActivity(new Intent(getApplicationContext(), ChangePassword.class));
                 Intent intent4 = new Intent(getApplicationContext(), ChangePassword.class);
-                String changePass = tvChangePassAccountSetting.getText().toString();
-                intent4.putExtra("changePass", changePass);
+                intent4.putExtra("resultPwd", resultPwd);
                 startActivity(intent4);
-                finish();
+//                finish();
                 break;
         }
     }

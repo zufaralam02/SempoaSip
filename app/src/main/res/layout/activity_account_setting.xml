@@ -55,8 +55,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_weight="1"
                                 android:text="Meisy Henry"
-                                android:textColor="#000000"
-                                android:textSize="17sp" />
+                                android:textColor="#000000" />
 
                             <TextView
                                 android:id="@+id/tvChangeNameAccountSetting"
@@ -100,8 +99,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_weight="1"
                                 android:text="meisy@henry.com"
-                                android:textColor="#000000"
-                                android:textSize="17sp" />
+                                android:textColor="#000000" />
 
                             <TextView
                                 android:id="@+id/tvChangeEmailAccountSetting"
@@ -145,8 +143,7 @@
                                 android:layout_gravity="center_vertical"
                                 android:layout_weight="1"
                                 android:text="0813 0813 0813"
-                                android:textColor="#000000"
-                                android:textSize="17sp" />
+                                android:textColor="#000000" />
 
                             <TextView
                                 android:id="@+id/tvChangePhoneAccountSetting"
@@ -191,8 +188,7 @@
                                 android:layout_weight="1"
                                 android:inputType="textPassword"
                                 android:text="123456"
-                                android:textColor="#fdd55a"
-                                android:textSize="17sp" />
+                                android:textColor="#fdd55a" />
 
                             <TextView
                                 android:id="@+id/tvChangePassAccountSetting"

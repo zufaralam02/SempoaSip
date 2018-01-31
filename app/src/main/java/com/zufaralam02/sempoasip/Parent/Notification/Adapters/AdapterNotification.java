@@ -3,29 +3,81 @@ package com.zufaralam02.sempoasip.Parent.Notification.Adapters;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.iapps.adapters.BaseRecyclerAdapter;
 import com.squareup.picasso.Picasso;
-import com.zufaralam02.sempoasip.Parent.LoginRegister.Adapters.AdapterAddChild;
-import com.zufaralam02.sempoasip.Parent.LoginRegister.Models.ModelAddChild;
 import com.zufaralam02.sempoasip.Parent.Notification.Activities.DetailNotification;
 import com.zufaralam02.sempoasip.Parent.Notification.Models.ModelNotification;
+import com.zufaralam02.sempoasip.Parent.Notification.Models.ModelNotificationn;
+import com.zufaralam02.sempoasip.Parent.Notification.Models.Result;
 import com.zufaralam02.sempoasip.R;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import butterknife.BindView;
+import butterknife.OnClick;
 
 /**
  * Created by user on 18/01/2018.
  */
 
 public class AdapterNotification extends BaseRecyclerAdapter {
+
+//    private ArrayList<Result> result;
+//
+//    public AdapterNotification(ArrayList<Result> result) {
+//        this.result = result;
+//    }
+//
+//    @Override
+//    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+//        LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
+//        View view = layoutInflater.inflate(R.layout.list_notification, parent, false);
+//        return new ViewHolder(view);
+//    }
+//
+//    @Override
+//    public void onBindViewHolder(ViewHolder holder, int position) {
+//        holder.tvTitleNotification.setText(result.get(position).getNotificationTitle());
+//        holder.tvDetailNotification.setText(result.get(position).getNotificationContent());
+//        holder.tvTimeNotification.setText(result.get(position).getNotificationCreated());
+//    }
+//
+//    @Override
+//    public int getItemCount() {
+//        return result.size();
+//    }
+//
+//    @OnClick(R.id.linearNotif)
+//    public void onClick() {
+//    }
+//
+//    public class ViewHolder extends RecyclerView.ViewHolder {
+//        @BindView(R.id.tvTitleNotification)
+//        TextView tvTitleNotification;
+//        @BindView(R.id.tvDetailNotification)
+//        TextView tvDetailNotification;
+//        @BindView(R.id.tvTimeNotification)
+//        TextView tvTimeNotification;
+//        @BindView(R.id.ivNotification)
+//        ImageView ivNotification;
+//        @BindView(R.id.linearNotif)
+//        LinearLayout linearNotif;
+//
+//        public ViewHolder(View itemView) {
+//            super(itemView);
+//        }
+//    }
+
+
     public ArrayList<ModelNotification> getModelNotification() {
         return modelNotification;
     }

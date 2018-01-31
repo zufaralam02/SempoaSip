@@ -50,8 +50,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/activity_vertical_margin"
                 android:text="1.000 Coin"
-                android:textColor="#000000"
-                android:textSize="20sp" />
+                android:textColor="#000000" />
 
             <Button
                 android:id="@+id/btnWalletTopup"

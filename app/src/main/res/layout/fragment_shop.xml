@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Student.Shop.Fragments.FragmentShop"
-    android:background="@drawable/ic_header">
+    android:background="@drawable/ic_header"
+    tools:context=".Student.Shop.Fragments.FragmentShop">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="Shop"
-        android:textSize="20sp" />
+        android:text="Shop" />
 
 </FrameLayout>

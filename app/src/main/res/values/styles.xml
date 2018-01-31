@@ -44,7 +44,11 @@
         <item name="fontPath">fonts/textMediumItalic.otf</item>
     </style>
 
-    <style name="textRegular">
+    <style name="textRegular" parent="@android:style/TextAppearance.Medium">
+        <item name="fontPath">fonts/textRegular.otf</item>
+    </style>
+
+    <style name="textRegularLarge" parent="@android:style/TextAppearance.Large">
         <item name="fontPath">fonts/textRegular.otf</item>
     </style>
 

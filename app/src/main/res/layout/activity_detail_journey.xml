@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Student.Journey.Activities.DetailJourney">
 
-
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -36,8 +35,7 @@
                 android:paddingLeft="25dp"
                 android:paddingRight="25dp"
                 android:paddingTop="8dp"
-                android:text="Rank"
-                android:textSize="15sp" />
+                android:text="Rank" />
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recyclerViewDetailJourney"

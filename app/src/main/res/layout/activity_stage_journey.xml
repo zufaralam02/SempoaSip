@@ -16,7 +16,7 @@
 
         <TextView
             android:id="@+id/tvCountDownTimer"
-            style="@style/textRegular"
+            style="@style/textRegularLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -25,7 +25,6 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:textColor="#fff"
-            android:textSize="20sp"
             android:textStyle="bold" />
 
     </RelativeLayout>
@@ -87,8 +86,7 @@
                         android:maxLength="10"
                         android:maxLines="1"
                         android:textColor="#33a86c"
-                        android:textColorHint="#33a86c"
-                        android:textSize="20sp" />
+                        android:textColorHint="#33a86c" />
 
                     <Button
                         android:id="@+id/btnDelete"
@@ -99,8 +97,7 @@
                         android:layout_gravity="center"
                         android:background="@color/transparent"
                         android:text="DELETE"
-                        android:textColor="#33a86c"
-                        android:textSize="15sp" />
+                        android:textColor="#33a86c" />
 
                 </RelativeLayout>
 
@@ -123,8 +120,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/circle_button"
                             android:text="1"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnFour"
@@ -135,8 +131,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="4"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnSeven"
@@ -147,8 +142,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="7"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
 
                     </LinearLayout>
@@ -167,8 +161,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/circle_button"
                             android:text="2"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnFive"
@@ -179,8 +172,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="5"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnEight"
@@ -191,8 +183,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="8"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnZero"
@@ -203,8 +194,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="0"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                     </LinearLayout>
 
@@ -222,8 +212,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/circle_button"
                             android:text="3"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnSix"
@@ -234,8 +223,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="6"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnNine"
@@ -246,8 +234,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="9"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnStageNext"
@@ -258,8 +245,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@color/transparent"
                             android:text="NEXT"
-                            android:textColor="#33a86c"
-                            android:textSize="15sp" />
+                            android:textColor="#33a86c" />
 
                     </LinearLayout>
 

@@ -27,8 +27,7 @@
         android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="00:00"
-        android:textColor="#000"
-        android:textSize="20sp" />
+        android:textColor="#000" />
 
     <Button
         android:id="@+id/btnPlayAgain"

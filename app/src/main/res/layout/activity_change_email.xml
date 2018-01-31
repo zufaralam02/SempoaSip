@@ -46,8 +46,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_small"
                         android:text="meisy@gmail.com"
-                        android:textColor="#000000"
-                        android:textSize="20sp" />
+                        android:textColor="#000000" />
 
                     <TextView
                         style="@style/textRegular"

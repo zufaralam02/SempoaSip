@@ -16,7 +16,7 @@
 
         <TextView
             android:id="@+id/tvCountDownTimerNew"
-            style="@style/textRegular"
+            style="@style/textRegularLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -25,7 +25,6 @@
             android:layout_marginRight="@dimen/activity_horizontal_margin"
             android:layout_marginTop="@dimen/activity_vertical_margin"
             android:textColor="#fff"
-            android:textSize="20sp"
             android:textStyle="bold" />
 
     </RelativeLayout>
@@ -38,7 +37,7 @@
         <android.support.v4.view.ViewPager
             android:id="@+id/viewPagerNew"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1" />
 
         <android.support.v7.widget.CardView
@@ -70,8 +69,7 @@
                         android:maxLength="10"
                         android:maxLines="1"
                         android:textColor="#33a86c"
-                        android:textColorHint="#33a86c"
-                        android:textSize="20sp" />
+                        android:textColorHint="#33a86c" />
 
                     <Button
                         android:id="@+id/btnDeleteNew"
@@ -83,8 +81,7 @@
                         android:background="@color/transparent"
                         android:gravity="center"
                         android:text="DELETE"
-                        android:textColor="#33a86c"
-                        android:textSize="15sp" />
+                        android:textColor="#33a86c" />
 
                 </RelativeLayout>
 
@@ -107,8 +104,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/circle_button"
                             android:text="1"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnFourNew"
@@ -119,8 +115,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="4"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnSevenNew"
@@ -131,8 +126,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="7"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
 
                     </LinearLayout>
@@ -151,8 +145,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/circle_button"
                             android:text="2"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnFiveNew"
@@ -163,8 +156,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="5"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnEightNew"
@@ -175,8 +167,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="8"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnZeroNew"
@@ -187,8 +178,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="0"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                     </LinearLayout>
 
@@ -206,8 +196,7 @@
                             android:layout_gravity="center"
                             android:background="@drawable/circle_button"
                             android:text="3"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnSixNew"
@@ -218,8 +207,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="6"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnNineNew"
@@ -230,8 +218,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@drawable/circle_button"
                             android:text="9"
-                            android:textColor="#fff"
-                            android:textSize="@dimen/button_numpad" />
+                            android:textColor="#fff" />
 
                         <Button
                             android:id="@+id/btnStageNextNew"
@@ -242,8 +229,7 @@
                             android:layout_marginTop="5dp"
                             android:background="@color/transparent"
                             android:text="NEXT"
-                            android:textColor="#33a86c"
-                            android:textSize="15sp" />
+                            android:textColor="#33a86c" />
 
                     </LinearLayout>
 
