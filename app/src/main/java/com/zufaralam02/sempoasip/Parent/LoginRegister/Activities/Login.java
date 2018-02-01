@@ -13,6 +13,8 @@ import com.zufaralam02.sempoasip.ApiHelper.RetrofitClient;
 import com.zufaralam02.sempoasip.Base.BaseActivitySempoa;
 import com.zufaralam02.sempoasip.Parent.BottomNavigation.BottomNavigationParent;
 import com.zufaralam02.sempoasip.ApiHelper.BaseApiService;
+import com.zufaralam02.sempoasip.Parent.Utils.Helper;
+import com.zufaralam02.sempoasip.Parent.Utils.ParentPref;
 import com.zufaralam02.sempoasip.R;
 
 import org.json.JSONException;
@@ -90,6 +92,14 @@ public class Login extends BaseActivitySempoa {
                                     if (jsonObject.getString("status_code").equals("1")) {
                                         String success = jsonObject.getString("status_message");
                                         Toast.makeText(context, success, Toast.LENGTH_SHORT).show();
+
+                                        JSONObject j = jsonObject.getJSONObject("result");
+                                        j.toString();
+                                        Helper.saveUser(Login.this, j.toString());
+                                        //User user = Helper.getUser(Login.this);
+                                        //user.getName();
+                                        // user.getEmail();
+
                                         String fullName = jsonObject.getJSONObject("result").getString("parent_fullname");
                                         String email = jsonObject.getJSONObject("result").getString("parent_email");
                                         String hp = jsonObject.getJSONObject("result").getString("parent_hp_nr");
@@ -100,6 +110,10 @@ public class Login extends BaseActivitySempoa {
                                         intent.putExtra("resultHp", hp);
                                         intent.putExtra("resultPwd", pwd);
                                         startActivity(intent);
+
+                                        ParentPref.getInstance(Login.this).setBoolean(ParentPref.PARENT_IS_LOGGED_IN, true);
+
+                                        ParentPref.getInstance(Login.this).getBoolean(ParentPref.PARENT_IS_LOGGED_IN);
                                     } else {
                                         String error = jsonObject.getString("status_message");
                                         Toast.makeText(context, error, Toast.LENGTH_SHORT).show();

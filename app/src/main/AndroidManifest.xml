@@ -26,6 +26,7 @@
             </intent-filter>
         </activity>
 
+
         <!-- Student -->
         <activity
             android:name=".Student.Journey.Activities.DetailJourney"
@@ -58,6 +59,7 @@
             android:name=".Student.BottomNavigation.BottomNavigationStudent"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize" />
+
 
         <!-- Parent -->
         <activity

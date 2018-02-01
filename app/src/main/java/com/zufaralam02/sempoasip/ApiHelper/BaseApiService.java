@@ -29,8 +29,8 @@ public interface BaseApiService {
                                        @Field("parent_hp_nr") String parentHpNr,
                                        @Field("parent_pwd") String parentPwd);
 
-    @POST("getNotificationByID")
-    Call<ModelNotificationn> getNotification(@Query("parent_id") String parentId);
+//    @POST("getNotificationByID")
+//    Call<ModelNotificationn> getNotification(@Query("parent_id") String parentId);
 
 //    @GET("movie/top_rated")
 //    Call<MoviesResponse> getTopRatedMovies(@Query("api_key") String apiKey);

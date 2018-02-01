@@ -1,1 +1,1 @@
-include ':app', ':common_androidmaster'
+include ':app', ':common_androidmaster', ':Teacher'

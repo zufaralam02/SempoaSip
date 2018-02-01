@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SempoaSip.iml" filepath="$PROJECT_DIR$/SempoaSip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teacher/myapplication.iml" filepath="$PROJECT_DIR$/Teacher/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_androidmaster/common_androidmaster.iml" filepath="$PROJECT_DIR$/common_androidmaster/common_androidmaster.iml" />
     </modules>
